@@ -1,0 +1,146 @@
+.layout {
+  background-color: #ecf0f5;
+  padding: 0;
+}
+.content {
+  padding: 20px;
+  height: 442px;
+}
+.auth-card {
+  width: 95%;
+  max-width: 450px;
+  margin: 5% auto 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+
+  .auth-card-title {
+    font-size: 20px;
+  }
+
+  .auth-card-content {
+    padding: 10px 0 0;
+  }
+}
+
+.table {
+  .table-header {
+    width: 100%;
+    .table-header-item {
+      float: left;
+      border: 1px solid black;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  .table-line {
+    width: 100%;
+    .table-item {
+      float: left;
+      border: 1px solid black;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+}
+
+.tableCategory {
+  .table-item{
+    height: 53px;
+  }
+}
+
+.tableProduct {
+  .table-item{
+    height: 100px;
+  }
+}
+
+.main-header {
+  position: relative;
+  max-height: 100px;
+  z-index: 1030;
+  background-color: #3c8dbc;
+  height: 60px;
+  margin-bottom: 50px;
+}
+
+.main-header .logo .logo-lg {
+  color: #fff;
+}
+
+.main-header .categ .categ-lg {
+  color: #fff;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  display: block;
+  float: left;
+  height: 50px;
+  font-size: 15px;
+  line-height: 50px;
+  text-align: center;
+  width: 100px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 0 15px;
+  font-weight: 300;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.main-header .navbar-custom-menu .navbar-nav .user-menu .dropdown-toggle .user-image{
+  float: left;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+.main-header .navbar-custom-menu .navbar-nav .user-menu .dropdown-toggle{
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-toggle::after{
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.main-header .logo {
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  display: block;
+  float: left;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  width: 230px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 0 15px;
+  font-weight: 300;
+  overflow: hidden;
+  text-decoration: none;
+
+}
+b, strong {
+  font-weight: 700;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  position: relative;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+
+
